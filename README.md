@@ -53,6 +53,7 @@ Prediction of the success rate of a video game based on the given features of th
     - Ridge Classification
     - SGD Classification
 5. Model Evaluation
+6. Data Driven Insights and Recommendation
 
 ## Introduction
 Our group wants to explore the factors to determine the success factor of a video game. For a game to be successful, we defined it to be a game that has either global or regional sales that are higher than the median number of sales in the respective category. As such, we aim to build an accurate prediction model that could potentially predict the success of a game based on the given features in our data set.
@@ -240,6 +241,9 @@ Goodness of Fit of Model - Test Dataset
 
 ## Model Evaluation
 Based on the models above, we can deduce that **logistic regression** is the best model to predict the success rate of our video games. Accuracy, Precision, Recall and F1 score between the train data and test data does not show a lot of difference meaning that the model is neither underfitted nor overfitted. The accuracy is around 75% whereas precision, recall and F1 score are around 85%.
+
+## Data Driven Insights and Recommendation
+Based on our Exploratory Data Analysis, Action games do well in the global sales. In addition, game platform such as PS2 was the most popular from 2000 to 2006. Surprisingly, Critic Score, User Score, Rating and Platform of the game does not affect the popularity of the game. The popularity of the game is mainly dependent on genre, year of release, global and regional sales. For sales, our data shows that Japan is a niche market since they have generally lower sales compared to the global market with a few exceptions. Our logistic regression model is able to classify the success rate of the video games. In future, we can improve our model by feature selection and usage of ensembled methods. Although our dataset is 16000 rows with 16 columns, most were missing important features which we reduce down to 4000 after data cleaning.
 
 ## Acknowledgements
  - [Scikit Learn](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
