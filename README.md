@@ -101,7 +101,7 @@ To evaluate our classification models, we will be using precision, accuracy, rec
 - **Recall** : Fraction of positives that were correctly identified
 - **F1 score** : What percent of positive predictions were correct?
 
-Below, we will be using classification models such as logisitic regression, random Forest Classification, Stochastic Gradient Descent and Ridge Classification.
+Below, we will be using classification models such as logistic regression, random Forest Classification, Stochastic Gradient Descent and Ridge Classification.
 
 ### 1. Logistic Regression
 Logistic Regression is a good model to use as it is good in handling non-linear relationships between predictors and response variable.
